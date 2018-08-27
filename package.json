@@ -1,0 +1,19 @@
+
+{
+  "name": "spinal-env-viewer-joint-apps",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "spinal-env-viewer-plugin-circularMenu":
+      "https://github.com/spinalcom/spinal-env-viewer-plugin-circularMenu.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm run create_viewer_env",
+    "create_viewer_env": "create_viewer_env -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
