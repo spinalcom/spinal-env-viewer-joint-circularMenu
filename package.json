@@ -1,11 +1,9 @@
-
 {
   "name": "spinal-env-viewer-joint-apps",
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "spinal-env-viewer-plugin-circularMenu":
-      "https://github.com/spinalcom/spinal-env-viewer-plugin-circularMenu.git"
+    "spinal-env-viewer-plugin-circularMenu": "https://github.com/spinalcom/spinal-env-viewer-plugin-circularMenu.git"
   },
   "main": "index.js",
   "scripts": {
